@@ -1,7 +1,7 @@
 package stack
 
 class StackWithList{
-    val elements: MutableList<Any> = mutableListOf()
+    private val elements: MutableList<Any> = mutableListOf()
 
     fun isEmpty() = elements.isEmpty()
 
